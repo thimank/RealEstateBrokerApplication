@@ -1,0 +1,85 @@
+.h2
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.tr
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.p
+{
+    color : #ffffff;
+}
+.section{
+    padding-top : 40px;
+    padding-bottom: 40px;
+}
+.main-heading{
+    color:black;
+    font-size: 45px;
+}
+.underline{
+    height : 04px;
+    width: 4rem;
+    background-color: forestgreen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.addnewcustomer{
+    height : 200vb;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-box{
+    box-shadow: 0px 0px 15px -5px black;
+}
+.h{
+    height: 400px;
+}
+
+.ho:hover{
+    text-shadow:none !important;
+    box-sizing:border-box !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    -webkit-transform: scale(1.1) !important;
+    -ms-transform: scale(1.1) !important;
+    transform: scale(1.1) !important;
+    z-index: 2;
+}
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}

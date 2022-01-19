@@ -1,0 +1,32 @@
+.passbg{
+    width:60%;
+    text-align: center;
+    background-color: lightgreen;
+    border-bottom: 5px solid rgb(3, 3, 3);
+}
+.failbg{
+    width:60%;
+    text-align: center;
+    background-color: lightslategray;
+    border-bottom: 5px solid rgb(3, 3, 3);
+
+}
+.npass{
+    text-align: center;
+    background-color: rgb(166, 224, 247);
+}
+.nfail{
+    text-align: center;
+    background-color: rgb(240, 156, 156);
+}
+.head{
+    font-size: 90;
+    width:60%;
+    text-align: center;
+    background-color: rgb(209, 204, 154);
+    border-bottom: 5px solid rgb(3, 3, 3);
+}
+
+.btn-space {
+    margin-left: 100px;
+  }
